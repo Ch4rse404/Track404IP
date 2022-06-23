@@ -63,7 +63,7 @@ def IpLocation():
 
   for x in resposta:
   
-  data.append(f"{x} : {resposta[x]}")
+    data.append(f"{x} : {resposta[x]}")
 
   print("\n".join(data))
 
